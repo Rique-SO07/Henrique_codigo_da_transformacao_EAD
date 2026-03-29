@@ -2,6 +2,7 @@
 (categorizações, Operações e Comparações)...🫠😢
 '''
 
+
 while True:
     print("-" * 23)
     print("Olá seja bem vindo ao menu de Calculo, operadores e classificações!")
