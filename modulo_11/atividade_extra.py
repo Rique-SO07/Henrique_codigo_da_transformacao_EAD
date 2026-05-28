@@ -65,7 +65,7 @@ def excluir_tarefa(id_tarefa):
 def menu():
     inicializar_banco()
     
-    while True:
+    while True: #Nosso loop para gerenciar, parecido com o carrinho do projeto_burguer mas um pouco diferente... 
         print("\n--- 📝 GERENCIADOR DE TAREFAS SQLITE ---")
         print("1. Adicionar Tarefa")
         print("2. Visualizar Tarefas")
@@ -98,5 +98,7 @@ def menu():
         else:
             print("❌ Opção inválida! Digite um número de 1 a 4.")
 
-# Inicia o programa
+
 menu()
+
+#Com esse exemplo acho que podemos aprimorar o sistema de hamburgueria🤙🍃
